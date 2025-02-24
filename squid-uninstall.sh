@@ -2,12 +2,12 @@
 
 ############################################################
 # AD Proxy Installer
-# Author: Flexeere
-# Email: info@flexeere.com
-# Github: https://github.com/flexeere/SAVVIE-Proxy/
-# Web: https://flexeere.com
+# Author: captainsza
+# Email: info@cloudsavvie.com
+# Github: https://github.com/captainsza/SAVVIE-Proxy/
+# Web: https://cloudsavvie.com
 # If you need professional assistance, reach out to
-# https://flexeere.com/order/contact.php
+# https://cloudsavvie.com/order/contact.php
 ############################################################
 
 if [ `whoami` != root ]; then
@@ -24,7 +24,7 @@ SOK_OS=$(/usr/local/bin/sok-find-os)
 
 if [ $SOK_OS == "ERROR" ]; then
     echo "OS NOT SUPPORTED.\n"
-    echo "Contact https://flexeere.com/order/contact.php to add support for your OS."
+    echo "Contact https://cloudsavvie.com/order/contact.php to add support for your OS."
     exit 1;
 fi
 
@@ -92,6 +92,6 @@ rm -f /usr/local/bin/squid-uninstall > /dev/null 2>&1
 echo 
 echo 
 echo "AD Proxy uninstalled."
-echo "Thank you for using flexeere.com AD proxy installer"
-echo "If you want to reinstall AD Proxy Server, check https://flexeere.com/proxy"
+echo "Thank you for using cloudsavvie.com AD proxy installer"
+echo "If you want to reinstall AD Proxy Server, check https://cloudsavvie.com/proxy"
 echo 

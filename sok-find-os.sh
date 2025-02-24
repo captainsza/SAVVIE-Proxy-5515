@@ -2,12 +2,12 @@
 
 ############################################################
 # AD Proxy Installer
-# Author: Flexeere
-# Email: info@flexeere.com
-# Github: https://github.com/flexeere/SAVVIE-Proxy/
-# Web: https://flexeere.com
+# Author: captainsza
+# Email: info@cloudsavvie.com
+# Github: https://github.com/captainsza/SAVVIE-Proxy/
+# Web: https://cloudsavvie.com
 # If you need professional assistance, reach out to
-# https://flexeere.com/order/contact.php
+# https://cloudsavvie.com/order/contact.php
 ############################################################
 
 if cat /etc/os-release | grep PRETTY_NAME | grep "Ubuntu 22.04" > /dev/null; then

@@ -1,6 +1,6 @@
 # AD Proxy Installer
 
-https://flexeere.com
+https://cloudsavvie.com
 
 Auto install AD 3 proxy on following linux OS.
 
@@ -18,7 +18,7 @@ Auto install AD 3 proxy on following linux OS.
 To install, run the script
 
 ```
-wget https://raw.githubusercontent.com/flexeere/SAVVIE-Proxy-5515/main/squid3-install.sh -O squid3-install.sh
+wget https://raw.githubusercontent.com/captainsza/SAVVIE-Proxy-5515/main/squid3-install.sh -O squid3-install.sh
 bash squid3-install.sh
 ```
 
